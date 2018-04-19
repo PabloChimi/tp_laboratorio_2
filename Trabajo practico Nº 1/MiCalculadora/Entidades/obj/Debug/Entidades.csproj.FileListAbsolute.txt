@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\Entidades\bin\Debug\Entidades.dll
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\Entidades\obj\Debug\Entidades.dll
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\Entidades\obj\Debug\Entidades.pdb
