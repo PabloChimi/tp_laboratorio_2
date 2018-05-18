@@ -14,3 +14,9 @@ C:\Users\Admin\Downloads\Esquema-TP-02\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\Admin\Downloads\Esquema-TP-02\TP-02\Entidades\obj\Debug\Entidades.pdb
 C:\Users\Admin\Downloads\Esquema-TP-02\TP-02\Entidades\bin\Debug\Entidades.dll
 C:\Users\Admin\Downloads\Esquema-TP-02\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº2\TP-02\Entidades\bin\Debug\Entidades.dll
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº2\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº2\TP-02\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº2\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº2\TP-02\Entidades\obj\Debug\Entidades.dll
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº2\TP-02\Entidades\obj\Debug\Entidades.pdb

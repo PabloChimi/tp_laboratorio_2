@@ -22,12 +22,12 @@ namespace Entidades_2017
         public Leche(EMarca marca, string patente, ConsoleColor color)
             : base(patente, marca, color)
         {
-            _tipo = ETipo.Entera;
+            this._tipo = ETipo.Entera;
         }
         
         public Leche(EMarca marca, string patente, ConsoleColor color, ETipo tipo) : this(marca, patente, color)
         {
-
+            this._tipo = tipo;
         }
         /// <summary>
         /// Las leches tienen 20 calorías
