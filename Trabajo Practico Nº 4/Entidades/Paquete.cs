@@ -11,6 +11,7 @@ namespace Entidades
     {
         public delegate void DelegadoEstado(object sender, EventArgs e);
         public event DelegadoEstado InformaEstado;
+
         public enum EEstado
         {
             Ingresado,
@@ -55,13 +56,22 @@ namespace Entidades
                 this.trackingID = value;
             }
         }
-
+        /// <summary>
+        /// Instancia los atributos de la clase con los parametros ingresados, estado se isntancia en "Ingresado"
+        /// </summary>
+        /// <param name="direccionEntrega"></param>
+        /// <param name="trackingID"></param>
         public Paquete(string direccionEntrega, string trackingID)
         {
             this.direccionEntrega = direccionEntrega;
             this.trackingID = trackingID;
+            this.estado = EEstado.Ingresado;
         }
 
+        /// <summary>
+        /// Genera el ciclo de vida del paquete, cambiando su estado cada 10 segundos
+        /// Al llegar al estado entregado, se guarda el paquete en la base de datos especificada en PaqueteDAO
+        /// </summary>
         public void MockCicloDeVida()
         {
             do
@@ -88,7 +98,11 @@ namespace Entidades
             }
 
         }
-
+        /// <summary>
+        /// Muestra los datos del paquete en forma de string
+        /// </summary>
+        /// <param name="elemento"></param>
+        /// <returns></returns>
         public string MostrarDatos(IMostrar<Paquete> elemento)
         {
             StringBuilder sb = new StringBuilder();
@@ -98,11 +112,21 @@ namespace Entidades
 
         }
 
+        /// <summary>
+        /// Override del metodo ToString
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return MostrarDatos(this);
         }
 
+        /// <summary>
+        /// Compara 2 paquetes por TrackingID para verificar igualdad, devuelve true o false
+        /// </summary>
+        /// <param name="p1"></param>
+        /// <param name="p2"></param>
+        /// <returns></returns>
         public static bool operator ==(Paquete p1, Paquete p2)
         {
             if (!(ReferenceEquals(p1, null) || ReferenceEquals(p2, null)))
@@ -114,6 +138,12 @@ namespace Entidades
             }
             return false;
         }
+        /// <summary>
+        /// Idem al ==, solo que devuelve true o false dependiendo si son distintos o no.
+        /// </summary>
+        /// <param name="p1"></param>
+        /// <param name="p2"></param>
+        /// <returns></returns>
         public static bool operator !=(Paquete p1, Paquete p2)
         {
             return !(p1 == p2);

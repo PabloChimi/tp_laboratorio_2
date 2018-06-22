@@ -24,11 +24,18 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Instancia los atributos mockPaquetes y paquetes
+        /// </summary>
         public Correo()
         {
             this.mockPaquetes = new List<Thread>();
             this.paquetes = new List<Paquete>();
         }
+
+        /// <summary>
+        /// Finaliza los hilos de ejecucion de mockPaquetes
+        /// </summary>
         public void FinEntregas()
         {
             foreach(Thread t in this.mockPaquetes)
@@ -39,6 +46,12 @@ namespace Entidades
                 }
             }
         }
+
+        /// <summary>
+        /// Retorna string que representa los datos de todos los paquetes del correo
+        /// </summary>
+        /// <param name="elementos"></param>
+        /// <returns></returns>
         public string MostrarDatos(IMostrar<List<Paquete>> elementos)
         {
             StringBuilder stringSalida = new StringBuilder();
@@ -54,7 +67,13 @@ namespace Entidades
 
             return stringSalida.ToString();
         }
-        //ver aca si lo agrego o no
+        
+        /// <summary>
+        /// Agrega un paquete al correo, siempre y cuando ya no este en el mismo
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public static Correo operator +(Correo c, Paquete p)
         {
             foreach(Paquete paquete in c.paquetes)

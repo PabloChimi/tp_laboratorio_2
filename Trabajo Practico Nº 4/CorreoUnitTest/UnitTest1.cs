@@ -10,7 +10,7 @@ namespace CorreoUnitTest
     {
 
         [TestMethod]
-        public void InicializacionCorreoListPaquetes()
+        public void InicializacionCorreo()
         {
             Correo c = new Correo();
             Assert.IsNotNull(c.Paquetes);

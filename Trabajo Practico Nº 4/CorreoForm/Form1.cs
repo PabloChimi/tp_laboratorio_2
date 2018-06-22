@@ -15,12 +15,22 @@ namespace CorreoForm
     {
         Correo correo;
 
+        /// <summary>
+        /// constructor del formulario, inicializo correo
+        /// </summary>
         public FrmPpal()
         {
             InitializeComponent();
             correo = new Correo();
         }
 
+        #region eventos
+
+        /// <summary>
+        /// Agrego un nuevo paquete
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             if((txtDireccion.Text != "") && (mtxtTrackingID.Text != ""))
@@ -42,14 +52,47 @@ namespace CorreoForm
             txtDireccion.Text = "";
             mtxtTrackingID.Text = "";
         }
-
+        /// <summary>
+        /// Muestro todos los paquetes con estado "Entregado" en la richTextBox
+        /// Guardo los datos de la misma en un archivo de texto
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnMostrarTodos_Click(object sender, EventArgs e)
         {
             this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
         }
 
+        /// <summary>
+        /// Misma funcionalidad que el evento anterior, con la particularidad de que es solo un elemento y el mismo se selecciona con el clic secundario
+        /// y solo a los paquetes "Entregados"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
+        }
 
+        /// <summary>
+        /// Cuando cierro el formulario, tambien se cierran todos los hilos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            correo.FinEntregas();
+        }
 
+        #endregion
+
+        #region metodos
+
+        /// <summary>
+        /// Muestra los datos en la richTextBox y guarda los mismos datos en un archivo de texto
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="elemento"></param>
         private void MostrarInformacion<T>(IMostrar<T> elemento)
         {
             if(elemento != null)
@@ -60,20 +103,13 @@ namespace CorreoForm
                     rtbMostrar.Text.Guardar("Salida.txt");
                 }
             }
-        }
+        } 
 
-        private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
-        }
-        
-
-
-        private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            correo.FinEntregas();
-        }
-
+        /// <summary>
+        /// Llama al metodo ActualizarEstados
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void paq_InformaEstado(object sender, EventArgs e)
         {
             if(this.InvokeRequired)
@@ -86,7 +122,9 @@ namespace CorreoForm
                 ActualizarEstados();
             }
         }
-
+        /// <summary>
+        /// Limpia los 3 list box y los actualiza volviendo a recorrer la lista
+        /// </summary>
         private void ActualizarEstados()
         {
             lstEstadoIngresado.Items.Clear();
@@ -113,7 +151,9 @@ namespace CorreoForm
 
         }
 
-
+        #endregion
+        
+        
         /*
         private void FrmPpal_Load(object sender, EventArgs e)
         {

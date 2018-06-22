@@ -9,6 +9,12 @@ namespace Entidades
 {
     public static class GuardaString
     {
+        /// <summary>
+        /// Guarda un archivo de texto en el escritorio de la computadora.
+        /// </summary>
+        /// <param name="texto"></param> El texto a guardar
+        /// <param name="archivo"></param> El nombre del archivo
+        /// <returns></returns>
         public static bool Guardar(this string texto, string archivo)
         {
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);

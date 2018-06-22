@@ -12,6 +12,9 @@ namespace Entidades
         private static SqlCommand sqlComando;
         private static SqlConnection sqlConexion;
 
+        /// <summary>
+        /// Instancia los atributos estaticos de la clase.
+        /// </summary>
         static PaqueteDAO()
         {
             sqlConexion = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=correo-sp-2017;Integrated Security=True");
@@ -21,6 +24,12 @@ namespace Entidades
             sqlComando.Connection = sqlConexion;
 
         }
+
+        /// <summary>
+        /// Agrega el paquete p a la base de datos
+        /// </summary>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public static bool Insertar(Paquete p)
         {
             StringBuilder sql = new StringBuilder();
@@ -29,6 +38,11 @@ namespace Entidades
             return EjecutarNonQuery(sql.ToString());
         }
 
+        /// <summary>
+        /// Metodo que ejecuta nonquery
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <returns></returns>
         private static bool EjecutarNonQuery(string sql)
         {
             bool todoOk = false;

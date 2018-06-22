@@ -4,3 +4,9 @@ C:\Users\Admin\source\repos\TP-04\Entidades\obj\Debug\Entidades.csproj.CoreCompi
 C:\Users\Admin\source\repos\TP-04\Entidades\obj\Debug\Entidades.dll
 C:\Users\Admin\source\repos\TP-04\Entidades\obj\Debug\Entidades.pdb
 C:\Users\Admin\source\repos\TP-04\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\Entidades\obj\Debug\Entidades.pdb
