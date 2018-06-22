@@ -11,3 +11,16 @@ C:\Users\Admin\source\repos\TP-04\CorreoForm\bin\Debug\Entidades.dll
 C:\Users\Admin\source\repos\TP-04\CorreoForm\bin\Debug\Entidades.pdb
 C:\Users\Admin\source\repos\TP-04\CorreoForm\obj\Debug\CorreoForm.FrmPpal.resources
 C:\Users\Admin\source\repos\TP-04\CorreoForm\obj\Debug\CorreoForm.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\bin\Debug\CorreoForm.exe.config
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\bin\Debug\CorreoForm.exe
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\bin\Debug\CorreoForm.pdb
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\bin\Debug\Entidades.dll
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\bin\Debug\Entidades.pdb
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\obj\Debug\CorreoForm.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\obj\Debug\CorreoForm.FrmPpal.resources
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\obj\Debug\CorreoForm.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\obj\Debug\CorreoForm.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\obj\Debug\CorreoForm.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\obj\Debug\CorreoForm.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\obj\Debug\CorreoForm.exe
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo Practico Nº 4\CorreoForm\obj\Debug\CorreoForm.pdb
