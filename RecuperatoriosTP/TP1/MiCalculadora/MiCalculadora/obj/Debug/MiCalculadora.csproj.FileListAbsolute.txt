@@ -1,0 +1,39 @@
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\Admin\Desktop\laboratorio 2\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Admin\Documents\GitHub\tp_laboratorio_2\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Admin\Desktop\Trabajo practico Nº 1\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.pdb
